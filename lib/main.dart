@@ -22,9 +22,10 @@ class MyApp extends StatelessWidget {
         GetPage(name:'/homeScreen', page:()=>const HomePageScreen(),transition: Transition.leftToRight),
         GetPage(name:'/P1', page:()=>const StateControllerWithCounterApp(),transition: Transition.zoom),
         GetPage(name:'/P2', page:()=>const CounterAppWithGtexStateController(),transition: Transition.fade),
-        GetPage(name:'/P3', page:()=>const CounterAppGStateController(),transition: Transition.circularReveal),
+        GetPage(name:'/P3', page:()=>const GtexStateController(),transition: Transition.circularReveal),
         // GetPage(name:'/P4', page:()=>const Product4(),transition: Transition.downToUp),
       ],
+      initialBinding:GtexDependencyBinder(),
     );
   }
 }
