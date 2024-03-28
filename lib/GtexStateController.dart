@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
+///This project all about getx statemanagement and how to use this
 ///Dependency Binding class
 class GtexDependencyBinder extends Bindings{
   @override
