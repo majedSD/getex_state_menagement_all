@@ -18,8 +18,7 @@ class _CounterAppScreenState extends State<CounterAppScreen> {
       ),
       body:const Column(
         children: [
-
-        ],
+          ],
       ),
       floatingActionButton:FloatingActionButton(
         onPressed: () {
